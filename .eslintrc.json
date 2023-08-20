@@ -1,0 +1,27 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+      "@typescript-eslint"
+  ],
+  "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+      "ecmaVersion": 13,
+      "sourceType": "module"
+  },
+  "rules": {
+    "quotes": [2, "single", { "avoidEscape": true }],
+    "linebreak-style": ["error", "unix"],
+    "semi": ["error", "always"],
+    "object-curly-spacing": ["error", "never"],
+    "no-redeclare": "off",
+    "no-unused-vars": ["off"],
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unused-vars": ["error", { "vars": "all", "args": "none" }],
+    "@typescript-eslint/no-namespace": ["off"],
+    "@typescript-eslint/no-empty-function": ["off"]
+  }
+}
