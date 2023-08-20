@@ -2,14 +2,12 @@
     "compilerOptions": {
         "target": "es5",
         "esModuleInterop": true,
-        "outDir": "dist",
-        "baseUrl": ".",
         "moduleResolution": "node",
+        "declaration": true,
         "types": [
             "jest",
             "node",
         ],
-        "declaration": true
     },
     "include": ["src/**/*"],
     "sourceMap": true,
