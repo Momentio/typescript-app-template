@@ -12,6 +12,9 @@
     "tests": "jest --watch --verbose --colors --testTimeout=10000",
     "tests:ci": "jest --colors --verbose --forceExit --testTimeout=10000"
   },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
   "devDependencies": {
     "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^5.17.0",
